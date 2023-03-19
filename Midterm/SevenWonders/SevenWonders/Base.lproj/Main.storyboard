@@ -61,9 +61,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ONE-lc-NXE">
-                                <rect key="frame" x="76" y="133" width="240" height="273"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ONE-lc-NXE">
+                                <rect key="frame" x="5" y="108" width="383" height="636"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -72,6 +71,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HEe-A4-ako"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ONE-lc-NXE" firstAttribute="centerY" secondItem="UZn-Fl-2bI" secondAttribute="centerY" id="aNK-qn-wSF"/>
+                            <constraint firstItem="ONE-lc-NXE" firstAttribute="leading" secondItem="HEe-A4-ako" secondAttribute="leading" constant="5" id="dMh-b4-JAl"/>
+                            <constraint firstItem="ONE-lc-NXE" firstAttribute="top" secondItem="HEe-A4-ako" secondAttribute="top" constant="5" id="tiv-BB-ru3"/>
+                            <constraint firstItem="HEe-A4-ako" firstAttribute="trailing" secondItem="ONE-lc-NXE" secondAttribute="trailing" constant="5" id="z6Y-3u-f6C"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Details" id="GmM-mZ-VBb"/>
                     <connections>
